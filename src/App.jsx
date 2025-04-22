@@ -1,6 +1,7 @@
 // App.js
 import "./App.css";
-import MainLayout from "./components/MainLayout";
+import MainLayout from './components/MainLayout';
+
 import { BrowserRouter, Routes, Route, useLocation, Outlet } from "react-router-dom";
 import { useEffect } from "react";
 import DashboardHome from "./pages/dashboard/Dashboard_Home.jsx";
