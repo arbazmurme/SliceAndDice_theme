@@ -1,0 +1,38 @@
+@import "tailwindcss";
+/* Custom Scrollbar */
+.scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+.icon-input {
+  background-color: #eef6fe;
+  height: 100%;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  margin-left: -12px;
+}
+.icon-input  .icon-size{
+  width: 24px;
+  height: 24px;
+  font-size: bold;
+}
+.MuiInputBase-input {
+  background-color: #fff !important;
+}
