@@ -1,12 +1,11 @@
 // App.js
 import "./App.css";
-import MainLayout from './components/MainLayout';
-
 import { BrowserRouter, Routes, Route, useLocation, Outlet } from "react-router-dom";
 import { useEffect } from "react";
 import DashboardHome from "./pages/dashboard/Dashboard_Home.jsx";
 import AddSuperCate from "./pages/AddEdit/Super Category/AddSuperCate.jsx";
 import ListSuperCate from "./pages/AddEdit/Super Category/ListSuperCate.jsx";
+import MainLayout from "./components/MainLayout.jsx";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
