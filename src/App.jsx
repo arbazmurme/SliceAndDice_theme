@@ -20,7 +20,7 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<MainLayout />}>
+        <Route path="/" element={<MainLayout />}> 
           <Route index element={<DashboardHome />} />
           <Route path="/admin/super-category/add" element={<AddSuperCate />} />
           <Route path="/admin/super-category/list" element={<ListSuperCate />} />
